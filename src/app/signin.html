@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quant-UX - Beta (1.0.4)</title>
+	
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-68534067-1', 'auto');
+		  ga('send', 'pageview');
+	</script>
+	
+	<meta name="google-site-verification" content="x07P23IpdYmX_-VgaQeB2lZE8jZ1jmLZINqPd2E9C5w" />
+				
+	<script src="libs/d3/d3.v3.min.js" charset="utf-8"></script>
+
+	 <script>
+	    dojoConfig= {
+	        has: {
+	            "dojo-firebug": true
+	        },
+	        parseOnLoad: false,
+	        async: true,
+	        locale:"en",
+	        packages: [{
+	            name: "de",
+	            location: "/de"
+	        }]
+	    };
+	</script>
+ 
+  	<script src="/libs/dojo/dojo_matc.js"></script> 
+
+	<script type="text/javascript">
+		// Load the widget parser and mobile base
+		require(["dojo/parser","de/vommond/matc/public/Test"],
+			function(parser) {
+				// Parse the page for widgets!
+				parser.parse();
+			}
+		);
+	</script>
+	
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="libs/glyphicons/css/glyphicons.css">
+	
+	
+	<link href="/libs/material17/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+	
+	
+	<style type="text/css">
+		@import "/style/matc.css"
+	</style>
+</head>
+<body class="MatcPublic">
+	<div id="container" data-dojo-type="de/vommond/matc/public/Test">
+	</div>
+</body>
+</html>
